@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "ping",
+  "version": "${version}",
+  "name": "Ping",
+  "description": "Shows exact player ping in the TAB list.",
+  "authors": [
+    "fixpot47"
+  ],
+  "contact": {
+    "sources": "https://github.com/fixpot47/ping"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "mixins": [
+    {
+      "config": "ping.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}
