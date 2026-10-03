@@ -38,7 +38,7 @@ public abstract class PlayerTabOverlayMixin {
                 text,
                 x + width - textWidth,
                 y,
-                0xFFFFFF,
+                0xFFFFFFFF,
                 true
         );
 
